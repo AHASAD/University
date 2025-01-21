@@ -1,0 +1,1162 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 2344px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.section_padding {
+    padding-left: 145px;
+    padding-right: 145px;
+}
+
+.common_padding {
+    padding: 100px 0;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+nav {
+   background-color: rgb(50, 68, 134);
+}
+/* Navbar */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 64px 0px 0px;
+    
+   
+}
+.navbar ul {
+    display: flex;
+
+}
+
+.navlist ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+.navbar .icon {
+    display: flex;
+}
+.navbar .icon ul li .search,.support,.user{
+    padding-right: 8px;
+}
+.navbar .icon ul .user_b{
+    border: none;
+}
+
+
+.navbar .icon ul li {
+    list-style: none;
+    margin: 0 10px;
+    border-right: 1px solid white;
+   
+}
+
+.navlist li a {
+    color: aliceblue;
+    padding: 5px;
+    font-size: 18px;
+}
+.navbar .icon ul li  {
+    color: aliceblue;
+    padding: 5px;
+    font-size: 25px;
+   
+}
+.navbar .logo {
+
+ background-color: rgb(46, 203, 112);
+}
+.navbar .logo img{
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+
+
+/* ----------Banner------------- */
+.banner{
+    background-image: url(../images/banner.png);
+    height: 100vh;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.banner .txt{
+    width: 30%;
+    margin-top: 85px;
+    padding: 10px;
+}
+.banner .txt .first_p{
+    font-size: 24px;
+    font-family: "Open Sans", serif;
+    border-bottom: 3px solid blue;
+    margin-bottom: 35px;
+}
+.banner .txt h1{
+    font-size: 42px;
+    font-family: "Open Sans", serif;
+   
+    margin-bottom: 25px;
+    color:rgb(46, 203, 112); 
+}
+.banner .txt h1 span{
+    color: blue;
+}
+.banner .txt .second_p{
+    font-size: 16px;
+    font-family: "Open Sans", serif;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.banner .txt a{
+    font-family: "Open Sans", serif;
+    font-weight: 800;
+    font-size: 21px;
+    padding: 18px 23px;
+    background-color: blue;
+    border-radius: 20px;
+    color: white;
+    
+
+}
+.banner .box .industry{
+    background-color: rgb(66, 127, 252);
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 70%;
+    
+}
+.banner .box .online{
+    background-color: rgb(254, 201, 56);
+    padding:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 70%;  
+}
+
+.banner .box .library {
+    background-color: rgb(252, 66, 160);
+    padding:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 70%;   
+}
+
+.banner .box {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    position: absolute;
+    top: 89%;
+    left:22% ;
+}
+
+.banner .box .industry .box_logo,.banner .box .online .box_logo,.banner .box .library .box_logo{
+    padding: 10px;
+    font-size: 50px;
+    color: white;
+}
+.box .industry .box_text,.box .online .box_text,.box .library .box_text{
+    padding: 10px;
+}
+.box .industry .box_text p,.box .online .box_text p,.box .library .box_text p{
+    font-size: 22px;
+    color: white;
+    margin-bottom: 5px;
+}
+.box .industry .box_text a,.box .online .box_text a,.box .library .box_text a{
+    font-size: 16px;
+    color: white;
+}
+/* Box-end-banner  */
+/* category */
+
+.category h3
+{
+    margin-top: 100px;
+    font-size: 32px;
+    color: rgb(46, 203, 112);
+    text-transform: capitalize;
+    font-family: "Open Sans", serif;
+    margin-bottom: 40px;
+
+   
+}
+.category  .category_first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.category  .category_first .category_main,.category  .category_first .category_main_2,.category  .category_first .category_main_3{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ 
+   /* align-items: start; */
+}
+.category .category_first  .category_main .subject_card,.category .category_first  .category_main_2 .subject_card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 35px;
+    background-color: rgb(248, 248, 248);
+  }
+.category  .category_first .category_main .subject_card .logo,.category  .category_first .category_main_2 .subject_card .logo{
+  padding: 10px;
+  width: 60%;
+   
+}
+.category .category_first .category_main .subject_card .txt,.category .category_first .category_main_2 .subject_card .txt{
+    padding: 10px;
+    font-family: "Open Sans", serif;
+ }
+ .category .category_first .category_main .subject_card .txt h4, .category .category_first .category_main_2 .subject_card .txt h4{
+   font-size: 20px;
+   margin-bottom: 5px;
+ }
+ .category  .category_first .category_main .subject_card .txt p, .category  .category_first .category_main_2 .subject_card .txt p{
+    font-size: 14px;
+   
+  }
+  .category .category_first .category_main .first_subject{
+    border-right: 5px solid rgb(46, 203, 112);
+  }
+  .category .category_first .category_main .second_subject{
+    border-right: 5px solid rgb(66,127,252);
+  }
+  .category .category_first .category_main .third_subject{
+    border-right: 5px solid rgb(250, 113, 147);
+  }
+
+  .category .category_first .category_main_2 .forth_subject{
+    border-right: 5px solid rgb(252, 95, 66);
+  }
+  .category .category_first .category_main_2 .fifth_subject{
+    border-right: 5px solid rgb(254,201,56);
+  }
+  .category .category_first .category_main_2 .sixth_subject{
+    border-right: 5px solid rgb(173, 51, 198);
+  }
+  .category  .category_first .category_main_3 h4{
+    font-size: 28px;
+    font-size: 32px;
+    color: rgb(46, 203, 112);
+    text-transform: capitalize;
+    font-family: "Open Sans", serif;
+  }
+  .category  .category_first .category_main_3{
+    width: 50%;
+    background-color: rgb(248, 248, 248);
+    padding: 10px;
+   
+  }
+  .category  .category_first .category_main_3 .input{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 20px;
+    border: none;
+
+  }
+  .category  .category_first .category_main_3 .textarea{
+   width: 100%;
+   height: 150px;
+   margin-bottom: 35px;
+  }
+  .category  .category_first .category_main_3 a {
+   margin: auto;
+   text-align: center;
+   font-size: 20px;
+   padding: 5px 10px;
+   border-radius: 15px;
+   border-radius: 15px;
+   border-radius: 15px;
+   border-radius: 15px;
+   border-radius: 15px;
+   color: blue;
+   border: 2px solid blue;
+   width: 40%;
+}
+  
+
+
+
+
+/* About_University */
+.about .university{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-image: url("../images/bguniversity.png");
+  background-repeat: no-repeat;
+  background-size: 62% 99%;
+
+  
+    
+}
+
+.about .university .txt{
+    width: 50%;
+}
+.about .university .txt h3{
+    font-size: 32px;
+    color: white;
+    font-family: "Open Sans", serif;
+    margin-bottom: 30px;
+}
+.about .university .txt .first_para,.about .university .txt .second_para,.about .university .txt a{
+    font-size: 16px;
+    color: white;
+    font-family: "Open Sans", serif;
+    margin-bottom: 35px;
+   
+}
+.about .university .txt a{
+    text-decoration: underline;
+}
+
+
+/* Seminar */
+.seminar{
+    background-image: url("../images/bgseminar.png");
+    background-position: right;
+    background-size: 41% 100%;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+}
+.seminar .heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.seminar .heading .seminar_p p{
+    font-size: 32px;
+    color: rgb(46, 203, 112);
+    text-transform: capitalize;
+    font-family: "Open Sans", serif;
+
+
+}
+
+.seminar .heading .seminar_p2 p{
+    font-size: 16px;
+    color:white;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-family: "Open Sans", serif;
+
+
+}
+.seminar_main .first_row,.seminar_main .second_row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.seminar_main .first_row .first_card,.seminar_main .second_row .first_card{
+    display: flex;
+}
+
+.seminar_main .first_row .first_card .first_card_txt{
+    width: 60%;
+    padding: 8px;
+    background-color: rgb(248, 248, 248);
+}
+.seminar_main .first_row .first_card .first_card_txt .date,.seminar_main .second_row .first_card .first_card_txt .date{
+    color: rgb(198, 198, 198);
+    font-size: 16px;
+    font-family: "Open Sans", serif;
+    margin-bottom: 5px;
+
+
+}
+.seminar_main .first_row .first_card .first_card_txt h4,.seminar_main .second_row .first_card .first_card_txt h4{
+    font-weight: 400;
+    font-size: 22px;
+    font-family: "Open Sans", serif;
+    margin-bottom: 5px;
+}
+.seminar_main .first_row .first_card .first_card_txt p,.seminar_main .second_row .first_card .first_card_txt p{
+   
+    font-size: 14px;
+    font-family: "Open Sans", serif;
+    margin-bottom: 10px;
+
+
+}
+.seminar_main .first_row .first_card .first_card_txt a,.seminar_main .second_row .first_card .first_card_txt a{
+   
+    font-size: 16px;
+    font-family: "Open Sans", serif;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    color: rgb(50, 68, 134);
+
+
+}
+
+.seminar_main .second_row .first_card .first_card_txt{
+    width: 62%;
+    padding: 20px;
+    background-color: rgb(248, 248, 248);
+}
+
+/* Events */
+.events{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-top: 50px ;
+}
+.events .txt{
+    width: 30%;
+    background-color:rgb(248, 248, 248) ;
+   padding:100px 60px 20px 30px;
+
+}
+.events .img{
+   
+   padding:10px 0px 10px 10px;
+
+}
+.events .txt h4{
+    font-size: 22px;
+    font-family: "Open Sans", serif;
+    color: rgb(142, 152, 187);
+    margin-bottom: 25px;
+}
+.events .txt p{
+    font-size: 14px;
+    font-family: "Open Sans", serif;
+    color: rgb(178, 178, 178);
+    margin-bottom: 25px;
+}
+.events .txt a{
+    font-size: 16px;
+    font-family: "Open Sans", serif;
+    text-decoration: underline;
+    color: rgb(50, 68, 134);
+    margin-bottom: 10px;
+}
+
+/* Admission */
+
+.about .university{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-image: url("../images/bguniversity.png");
+    background-repeat: no-repeat;
+    background-size: 62% 99%;   
+  }
+  
+  .about .university .txt{
+      width: 50%; 
+  }
+  .about .university .txt h3{
+      font-size: 32px;
+      color: white;
+      font-family: "Open Sans", serif;
+      margin-bottom: 30px;
+  }
+  .about .university .txt .first_para,.about .university .txt .second_para,.about .university .txt a{
+      font-size: 16px;
+      color: white;
+      font-family: "Open Sans", serif;
+      margin-bottom: 35px;
+     
+  }
+  .about .university .txt a {
+      text-decoration: underline;
+  }
+
+/* skill */
+.skill .skill_main{
+    display: flex;
+}
+
+.skill .skill_main .img{
+    padding: 10px 30px 10px 0px;
+}
+.skill .skill_main .txt{
+    padding: 10px 10px 10px 30px;
+    width: 55%;
+}
+.skill .skill_main .txt h3{
+    font-size: 32px;
+    color: rgb(46, 203, 112);
+    font-family: "Open Sans", serif;
+    margin-bottom: 32px;
+    
+}
+.skill .skill_main .txt h3 span{
+    color:rgb(50, 68, 134);
+    text-transform: uppercase;
+}
+.skill .skill_main .txt p{
+    font-size: 14px;
+    
+    margin-bottom: 32px;
+    
+}
+.skill .skill_main .txt ul li{
+    font-size: 16px;
+    color:rgb(50, 68, 134) ;
+    font-family: "Open Sans", serif;
+    margin-bottom: 32px;
+    
+}
+.skill .skill_main .txt a{
+    border: 1px solid rgb(50, 68, 134);
+    padding: 10px 20px;
+    border-radius: 20px;
+    border-radius: 20px;
+    border-radius: 20px;
+    border-radius: 20px;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+/* Online */
+.online{
+    background-color: rgb(248, 248, 248);
+}
+.online .online_main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.online .online_main .img1{
+    margin: 10px;
+}
+.online h3{
+    font-size: 32px;
+    color: rgb(46, 203, 112);
+    font-family: "Open Sans", serif;
+    margin-bottom: 32px;
+    
+}
+.online  p{
+    font-size: 14px;
+    color: rgb(50, 68, 134);
+    font-weight: 700;
+    margin-bottom: 15px;
+    
+}
+/* online-main */
+
+/* Faculty */
+
+.faculty .heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.faculty .heading .seminar_p p{
+    font-size: 32px;
+    color: rgb(46, 203, 112);
+    text-transform: capitalize;
+    font-family: "Open Sans", serif;
+
+
+}
+
+.faculty .heading .seminar_p2 p{
+    font-size: 16px;
+    color:rgb(46, 203, 112);
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-family: "Open Sans", serif;
+
+
+}
+.faculty .faculty_main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.faculty .faculty_main .card{
+    margin: 10px;
+    background-color: rgb(248, 248, 248);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ .faculty .card p{
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: rgb(145, 145, 145);
+}
+.faculty .card h4{
+    font-size: 24px;
+    color:rgb(50, 68, 134);
+    font-weight: 700;
+}
+
+/* News */
+.news .news_main .news_first_row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.news .container .head{
+    font-size: 32px;
+    color:rgb(46, 203, 112) ;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.news .news_main .news_first_row div{
+    margin: 10px;
+}
+.news .news_main .news_first_row .img{
+   width: 30%;
+}
+.news .news_main .news_first_row .card{
+    width: 30%;
+    background-color: rgb(248, 248, 248);
+    padding: 10px;
+
+}
+.news .news_main .news_first_row .card h3{
+    font-size: 22px;
+    color:rgb(50, 68, 134);
+}
+.news .news_main .news_first_row .card h3 span{
+    font-size: 45px;
+    color: rgb(138, 138, 138);
+}
+.news .news_main .news_first_row .card p{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.news .news_main .news_first_row .card a{
+    color:rgb(46, 203, 112) ;
+    text-decoration: underline;
+}
+
+/* news end */
+/* Footer */
+footer{
+    padding: 20px;
+    background-color: rgb(50, 68, 134);
+}
+.foot_contain{
+    display: flex;
+   
+    align-items: center;
+}
+.foot_contain .edulearn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    width: 20%;
+    margin: 10px;
+}
+.foot_contain .edulearn h3{
+    color: white;
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-family: "Open Sans", serif;
+
+}
+.foot_contain .list {
+   width: 20%;
+   margin: 10px;
+
+}
+.foot_contain .list h3{
+    color: white;
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-family: "Open Sans", serif;
+
+}
+.foot_contain .contact h3{
+    color: white;
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-family: "Open Sans", serif;
+
+}
+.foot_contain .reservation h3{
+    color: white;
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-family: "Open Sans", serif;
+
+}
+.foot_contain .reservation{
+    width: 30%;
+    margin: 10px;
+}
+.foot_contain .contact{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.foot_contain .contact .list_social{
+    color: antiquewhite;
+    border-radius: 50%;
+    font-size: 25px;
+}
+.foot_contain .contact i{
+    margin-bottom: 25px;
+    color: wheat;
+
+
+}
+.foot_contain .contact i span{
+    font-family: "Open Sans", serif;
+    padding: 5px;
+
+}
+
+.foot_contain .list ul li{
+    list-style: none;
+    margin-bottom: 5px;
+
+
+
+}
+
+.foot_contain .list ul li a{
+   color: white;
+
+
+
+
+}
+.foot_contain .edulearn p{
+    color: white;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-family: "Open Sans", serif;
+    line-height: 30px;
+    margin-bottom: 20px;
+
+}
+.foot_contain .reservation p{
+    color: white;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-family: "Open Sans", serif;
+    line-height: 30px;
+    margin-bottom: 20px;
+
+}
+.foot_contain .reservation  form input{
+    width: 100%;
+    padding: 10px;
+
+}
+
+.foot_contain .edulearn a{
+    font-size: 16px;
+    color: white;
+    margin-bottom: 20px;
+    font-family: "Open Sans", serif;
+    text-decoration: underline;
+}
+ .last_section{
+    background-color:rgb(46, 203, 112)  ;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Footer end */
+
+
+
+
+@media screen and (max-width:1199px){
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 0px 0px 0px;
+    }
+    .navbar .logo {
+       margin-bottom: 20px;
+       padding: 20px;
+      
+      }
+    .navbar .navlist {
+        margin-bottom:20px ;
+        align-items: center;
+    }
+    .navbar .icon {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 20px;
+
+    }
+   
+    .banner .txt{
+        
+        width: 50%;
+        margin-top: 50px;
+       
+    }
+    
+
+
+
+    .banner .txt .first_p{
+        font-size: 24px;
+        border: none;
+        margin-bottom: 0px;
+    }
+    .banner .txt h1{
+        font-size: 38px;
+       
+       
+        margin-bottom: 5px;
+        
+    }
+    
+    .banner .txt .second_p{
+        font-size: 13px;
+       
+    }
+    .banner .txt a{
+       
+        font-size: 15px;
+        padding: 9px 12px;
+       
+        
+    
+    }
+
+
+    .banner .box{
+    left: 0;
+     width: 100%;
+     justify-content: space-between;
+     align-items: center;
+       
+     
+       
+    }
+    .category .category_first  .category_main ,.category .category_first  .category_main_2,.category .category_first  .category_main_2{
+      width: 40%;
+      }
+      .events .txt{
+       padding: 10px;
+    
+    }
+    .skill .skill_main {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .skill .skill_main .img{
+        width: 50%;
+      
+       
+    }
+    .skill .skill_main .txt{
+        width: 100%;
+    }
+     
+ 
+}
+@media screen and (max-width:991px){
+
+    .banner .txt{
+        
+        width: 60%;
+        margin-top: 60px;
+       
+    }
+    .section_padding{
+        padding: 0px 50px;
+    }
+    .banner .txt .second_p{
+        color:#6e2f3b;
+    }
+    .category{
+        padding: 10px;
+    }
+    .category  .category_first{
+       flex-direction: column;
+    }
+    .category  .category_first .category_main,.category  .category_first .category_main_2{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+      
+        
+     }
+     .category  .category_first .category_main_3{
+        padding: 10px;
+        width: 100%;
+
+     }
+     .about .university{
+        flex-direction: column;
+        background-size: 100% 40%;
+       
+      
+        
+          
+      }
+      
+      .about .university .txt{
+          width: 100%;
+          padding: 20px;
+          
+         
+         
+        
+      
+        
+      }
+      .about .university .img{
+       width: 30;
+      }
+      .about .university .txt h3{
+          font-size: 25px;
+         
+          margin-bottom: 13px;
+      }
+      .about .university .txt .first_para,.about .university .txt .second_para,.about .university .txt a{
+          font-size: 14px;
+        
+          margin-bottom: 10px;
+         
+      }
+      .about .university .txt a{
+          text-decoration: underline;
+      }
+      .seminar_main .first_row,.seminar_main .second_row{
+     flex-direction: column;
+     margin: 10px;
+    }
+    .seminar_main .first_row .first_card{
+        margin: 10px;
+    }
+    .events{
+       flex-direction: column;
+    }
+    .events .txt{
+        width: 100%;
+       
+    
+    }
+    .faculty .card p{
+        text-align: center;
+        font-size: 11px;
+        margin-bottom: 10px;
+        color: rgb(145, 145, 145);
+    }
+    .faculty .card h4{
+        font-size: 18px;
+        color:rgb(50, 68, 134);
+        font-weight: 700;
+    }
+
+    
+  
+    
+
+}
+
+@media screen and (max-width:767px){
+    .banner .txt{
+        
+        width: 70%;
+        margin-top: 30px;
+       
+    }
+    .banner{
+        height: 80vh;
+        padding: 10px;
+    }
+    .banner .box {
+        left: 0;
+        width: 94%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .banner .box{
+        top: 70%;
+        left: 62px;
+         width: 87%;
+         justify-content: space-between;
+         align-items: center;
+           
+         
+           
+        }
+        .banner .box .industry,.banner .box .online,.banner .box .library{
+            width: 25%;
+            margin: 2px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .banner .txt .first_p{
+            font-size: 18px;
+        
+        }
+        .banner .txt h1{
+            font-size: 28px;
+           
+           
+            margin-bottom: 5px;
+            
+        }
+        
+        .banner .txt .second_p{
+            font-size: 12px;
+            margin-bottom: 20px;
+           
+        }
+        .banner .txt a{
+           
+            font-size: 15px;
+            padding: 9px 12px;
+           
+            
+        
+        }
+        .banner .box .industry .box_logo,.banner .box .online .box_logo,.banner .box .library .box_logo{
+            padding: 5px;
+            font-size: 30px;
+            color: white;
+        }
+        .box .industry .box_text,.box .online .box_text,.box .library .box_text{
+            padding: 5px;
+        }
+        .box .industry .box_text p,.box .online .box_text p,.box .library .box_text p{
+            font-size: 16px;
+           ;
+            margin-bottom: 2px;
+        }
+        .box .industry .box_text a,.box .online .box_text a,.box .library .box_text a{
+            font-size: 16px;
+           
+        }
+        .news .news_main .news_first_row{
+            flex-direction: column;
+            align-items: center;
+           
+            width: 100%;
+        }
+        .news .news_main .news_first_row .card{
+            width: 100%;
+          
+           
+        }
+
+        .news .news_main .news_first_row .img {
+
+        
+         }
+         .foot_contain{
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+         }
+         .foot_contain .edulearn{
+            width: 100%;
+         }
+         .foot_contain .list{
+            width: 100%;
+         }
+         .foot_contain .reservation{
+            width: 100%;
+         }
+      
+      
+    
+    
+
+}
+@media screen and (max-width:595px){
+    .banner{
+        height: 60vh;
+        padding: 10px;
+    }
+    .section_padding{
+        padding: 0px;
+     }
+    .banner .txt{
+       
+        margin: 0;
+        width: 100%;
+       
+    }
+    .banner .box{
+        left: 0;
+         width: 100%;
+         justify-content: space-between;
+         align-items: center;
+             
+        }
+    
+        .banner .box .industry .box_logo,.banner .box .online .box_logo,.banner .box .library .box_logo{
+            padding: 5px;
+            font-size: 15px;
+            color: white;
+        }
+        .box .industry .box_text,.box .online .box_text,.box .library .box_text{
+            padding: 5px;
+        }
+        .box .industry .box_text p,.box .online .box_text p,.box .library .box_text p{
+            font-size: 12px;
+         
+        }
+        .box .industry .box_text a,.box .online .box_text a,.box .library .box_text a{
+            font-size: 12px;
+           
+        }
+        .online{
+            padding: 20px;
+        }
+        .faculty .faculty_main{
+            flex-direction: column;
+        }
+    
+    
+    
+
+}
